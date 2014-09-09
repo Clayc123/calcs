@@ -1,0 +1,13 @@
+# input
+puts "What is your speed in mph"
+speed = gets.to_f
+puts "how long did it take you in hours"
+time = gets.to_f
+
+# operation
+total_distance = speed * time
+# output
+puts "Your Distance Is!!"
+puts total_distance
+ 
+

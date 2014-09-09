@@ -1,0 +1,12 @@
+# input
+puts "How much money did you spend"
+number = gets.to_f
+
+#operation
+number_taxed = number*0.0653
+
+#output
+puts "your sales tax is!!"
+puts number_taxed.to_s
+puts "your total amount is"
+puts number.to_f + number_taxed.to_f

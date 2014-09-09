@@ -1,0 +1,7 @@
+puts "What is the height of your height of your triangle?"
+h = gets.to_f
+puts "What is the base of your triangle?"
+b = gets.to_f
+Area = b*h/0.5
+puts "Your Area is..."
+puts Area
